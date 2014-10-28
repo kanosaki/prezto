@@ -28,11 +28,23 @@ zstyle ':prezto:load' pmodule \
   'terminal' \
   'editor' \
   'history' \
+  'history-substring-search' \
   'directory' \
   'spectrum' \
   'utility' \
   'completion' \
-  'prompt'
+  'prompt' \
+  'tmux' \
+  'ruby' \
+  'python' \
+  'git' \
+  'yum' \
+  'pacman' \
+  'homebrew' \
+  'rsync' \
+  'ssh' \
+  'osx' \
+  'my'
 
 #
 # Editor

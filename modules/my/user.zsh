@@ -55,3 +55,7 @@ function chpwd() {
     ls
 }
 
+alias j="autojump"
+if [ -f `brew --prefix`/etc/autojump ]; then
+    . `brew --prefix`/etc/autojump
+fi

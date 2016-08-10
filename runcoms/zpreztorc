@@ -176,8 +176,3 @@ zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
 
 # Integrate with iTerm2.
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
-   if [ "x$YROOT_NAME" != "x" ]; then
-       PS1="[\u@\h:$YROOT_NAME \W]\\$ "
-   else
-       PS1="[\u@\h \W]\\$ "
-   fi
